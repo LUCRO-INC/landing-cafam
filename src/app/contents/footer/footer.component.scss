@@ -1,0 +1,87 @@
+@font-face {
+  font-family: light;
+  src: url(../../../assets/Gotham-Font/Gotham-Light.otf) format("opentype");
+}
+@font-face {
+  font-family: bold;
+  src: url(../../../assets/Gotham-Font/Gotham-Bold.otf) format("opentype");
+}
+.footer {
+  background-image: url("../../../assets/tinified/10.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+  margin-top: auto;
+  color: #ffffff;
+  //   text-align: center;
+  display: flex;
+  justify-content: center;
+  .content-footer {
+    margin-top: 40px;
+    // font-size: 8px;
+    .contact {
+      font-size: 12px;
+      font-family: "light", "arial", sans-serif;
+    }
+    .mail {
+      font-size: 9px;
+      font-family: "light", "arial", sans-serif;
+    }
+  }
+  // span {
+  //   font-size: 7px;
+  // }
+  .message {
+    background-image: url(../../../assets/tinified/email.jpeg);
+    color: #ffffff;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+  }
+  .whatsapp {
+    background-image: url(../../../assets/tinified/WhatsApp.jpeg);
+    color: #ffffff;
+    background-size: cover;
+    width: 17px;
+    height: 17px;
+    margin-left: 5px;
+  }
+  .content-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    .btn-whatsapp {
+      padding: 6px;
+      width: 40%;
+      border-radius: 24px;
+      border: 1px solid;
+      font-size: 8px;
+      font-family: "light", "arial", sans-serif;
+      color: #ffffff;
+      text-align: center;
+      // display: flex;
+      // justify-content: space-between;
+    }
+  }
+}
+.questions {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  .text {
+    font-family: "bold", "arial", sans-serif;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    background: #66a3f8;
+    border-radius: 30px;
+    padding: 13px;
+    // //   bottom: 260px;
+    top: -21px;
+    // left: 45%;
+    color: #ffffff;
+    font-size: 12px;
+  }
+}

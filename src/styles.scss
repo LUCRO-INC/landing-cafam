@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
+@import "../node_modules/bootstrap/scss/bootstrap-grid";
+@font-face {
+  font-family: light;
+  src: url(./assets/Gotham-Font/Gotham-Light.otf) format("opentype");
+}
+@font-face {
+  font-family: bold;
+  src: url(./assets/Gotham-Font/Gotham-Bold.otf) format("opentype");
+}
+
+body {
+  //   position: relative;
+  //   padding-bottom: 5em;
+  //   min-height: 100vh;
+  margin: 0;
+  width: 100%;
+}

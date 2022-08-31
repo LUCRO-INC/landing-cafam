@@ -1,0 +1,106 @@
+// * {
+//   box-sizing: border-box;
+//   margin: 0;
+//   padding: 0;
+//   font-family: "lato", "arial", sans-serif;
+// }
+// @font-face {
+//   font-family: bold;
+//   src: url(../assets/Gotham-Font/Gotham-Bold.otf) format("opentype");
+// }
+// @font-face {
+//   font-family: book;
+//   src: url(../assets/Gotham-Font/GothamLight.ttf) format("opentype");
+// }
+.content-body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  app-footer {
+    margin-top: auto;
+  }
+  .content-title {
+    margin-top: 50px;
+    font-family: "bold", "arial", sans-serif;
+    // padding: 30px;
+    font-size: 12px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .title {
+      margin: 10px 10px 10px 10px;
+      width: 75%;
+      text-align: center;
+      color: #0e4194;
+    }
+  }
+  .content-cards {
+    padding: 33px;
+    justify-content: center;
+    margin-bottom: 40px;
+    // margin: 5px;
+    // width: 80%;
+    // text-align: center;
+
+    mat-card {
+      font-size: 8px;
+      // width: 50%;
+      height: 105px; //   background: #d6dadd;
+      // margin-right: 1px;
+      border-radius: 10px;
+      color: #092656;
+
+      span {
+        white-space: initial;
+      }
+    }
+    // span{
+    .number {
+      background: #2d4a73;
+      color: #02ffd1;
+      width: 17px;
+      height: 17px;
+      border-radius: 33px;
+      text-align: center;
+      padding: 2px;
+      margin-bottom: 5px;
+      font-size: 15px;
+      font-family: "bold", "arial", sans-serif;
+    }
+    // }
+    .contentc {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+    .crad-1 {
+      background-image: url("../assets/tinified/5.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .crad-2 {
+      background-image: url("../assets/tinified/6.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .crad-3 {
+      background-image: url("../assets/tinified/7.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .crad-4 {
+      background-image: url("../assets/tinified/8.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .card-center {
+      display: flex;
+      justify-content: center;
+      .crad-5 {
+        background-image: url("../assets/tinified/9.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    }
+  }
+}
