@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "landing-cafan": {
+    "landing-cafam": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/landing-cafan",
+            "outputPath": "dist/landing-cafam",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "landing-cafan:build:production"
+              "browserTarget": "landing-cafam:build:production"
             },
             "development": {
-              "browserTarget": "landing-cafan:build:development"
+              "browserTarget": "landing-cafam:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -75,7 +75,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "landing-cafan:build"
+            "browserTarget": "landing-cafam:build"
           }
         },
         "test": {

@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "target": "prod",
+    "public": "dist/landing-cafam",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

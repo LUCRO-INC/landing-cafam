@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "prueballucro",
+    "production": "retail-app-1ac4c"
+  },
+  "targets": {
+    "retail-app-1ac4c": {
+      "hosting": {
+        "prod": [
+          "lucro-cafam"
+        ]
+      }
+    }
+  }
+}
