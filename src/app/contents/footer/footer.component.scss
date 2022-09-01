@@ -6,6 +6,11 @@
   font-family: bold;
   src: url(../../../assets/Gotham-Font/Gotham-Bold.otf) format("opentype");
 }
+.wh{
+  border-radius: 30px;
+  border:solid 1px rgba(255, 255, 255, 0.5);
+  padding: 6px 20px;
+}
 .footer {
   background-image: url("../../../assets/tinified/10.png");
   background-repeat: no-repeat;
@@ -14,19 +19,22 @@
   height: 200px;
   margin-top: auto;
   color: #ffffff;
-  //   text-align: center;
+  padding: 40px 0;
   display: flex;
   justify-content: center;
   .content-footer {
     margin-top: 40px;
     // font-size: 8px;
     .contact {
-      font-size: 12px;
+      font-size: 14px;
       font-family: "light", "arial", sans-serif;
     }
     .mail {
-      font-size: 9px;
+      font-size: 12px;
       font-family: "light", "arial", sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   }
   // span {
@@ -72,16 +80,14 @@
   justify-content: center;
   .text {
     font-family: "bold", "arial", sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
     display: flex;
     justify-content: center;
     position: absolute;
     background: #66a3f8;
     border-radius: 30px;
-    padding: 13px;
-    // //   bottom: 260px;
     top: -21px;
-    // left: 45%;
     color: #ffffff;
-    font-size: 12px;
   }
 }
