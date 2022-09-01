@@ -32,6 +32,8 @@
       width: 75%;
       text-align: center;
       color: #0e4194;
+      font-size: 22px;
+      line-height: 22px;
     }
   }
   .content-cards {
@@ -44,28 +46,43 @@
 
     mat-card {
       font-size: 8px;
+      margin: 10px 0;
       // width: 50%;
       height: 105px; //   background: #d6dadd;
       // margin-right: 1px;
       border-radius: 10px;
       color: #092656;
+      height: 200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .content-margin{
+        margin: 0 20px;
+      }
 
       span {
         white-space: initial;
+        font-size: 14px;
+        line-height: 16px;
+        color: #092656;
+     
       }
     }
     // span{
     .number {
       background: #2d4a73;
-      color: #02ffd1;
-      width: 17px;
-      height: 17px;
+      color: rgba(2, 255, 209, 1);
+      width: 24px;
+      height: 24px;
       border-radius: 33px;
       text-align: center;
       padding: 2px;
       margin-bottom: 5px;
       font-size: 15px;
       font-family: "bold", "arial", sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
     // }
     .contentc {
