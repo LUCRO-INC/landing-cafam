@@ -49,7 +49,7 @@
       // width: 50%;
       height: 105px; //   background: #d6dadd;
       // margin-right: 1px;
-      border-radius: 10px;
+      border-radius: 103px;
       color: #092656;
       height: 200px;
       display: flex;
@@ -63,15 +63,18 @@
         white-space: initial;
         font-size: 14.5px;
         line-height: 16px;
-        color: #092656;
+        color: #ffffff;
+        padding: 20px;
       }
     }
     // span{
     .number {
+      position: absolute;
+      top: -12px;
       background: #2d4a73;
       color: rgba(2, 255, 209, 1);
-      width: 24px;
-      height: 24px;
+      width: 50px;
+      height: 50px;
       border-radius: 33px;
       text-align: center;
       padding: 2px;
@@ -89,22 +92,22 @@
       width: 100%;
     }
     .crad-1 {
-      background-image: url("../assets/tinified/5.png");
+      background-image: url("../assets/tinified/AdobeStock_388279335.png");
       background-repeat: no-repeat;
       background-size: cover;
     }
     .crad-2 {
-      background-image: url("../assets/tinified/6.png");
+      background-image: url("../assets/tinified/AdobeStock_244632771.png");
       background-repeat: no-repeat;
       background-size: cover;
     }
     .crad-3 {
-      background-image: url("../assets/tinified/7.png");
+      background-image: url("../assets/tinified/AdobeStock_465757258.png");
       background-repeat: no-repeat;
       background-size: cover;
     }
     .crad-4 {
-      background-image: url("../assets/tinified/8.png");
+      background-image: url("../assets/tinified/AdobeStock_488228319.png");
       background-repeat: no-repeat;
       background-size: cover;
     }
@@ -112,7 +115,7 @@
       display: flex;
       justify-content: center;
       .crad-5 {
-        background-image: url("../assets/tinified/9.png");
+        background-image: url("../assets/tinified/AdobeStock_488388589.png");
         background-repeat: no-repeat;
         background-size: cover;
       }
