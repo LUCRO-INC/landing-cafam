@@ -42,25 +42,19 @@
       text-align: center;
       color: white;
       font-size: 22px;
-      line-height: 22px;
+      line-height: 26px;
     }
   }
   .content-cards {
     padding: 33px;
     justify-content: center;
     margin-bottom: 40px;
-    // margin: 5px;
-    // width: 80%;
-    // text-align: center;
 
     mat-card {
       margin: 10px 0;
-      // width: 50%;
-      height: 105px; //   background: #d6dadd;
-      // margin-right: 1px;
-      border-radius: 103px;
+      border-radius: 80px;
       color: #092656;
-      height: 200px;
+      height: 270px;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -70,8 +64,8 @@
 
       span {
         white-space: initial;
-        font-size: 14.5px;
-        line-height: 16px;
+        font-size: 15.5px;
+        line-height: 18px;
         color: #ffffff;
         padding: 20px;
       }
@@ -104,21 +98,25 @@
       background-image: url("../assets/tinified/body1.png");
       background-repeat: no-repeat;
       background-size: cover;
+      padding: 24px 10px;
     }
     .crad-2 {
       background-image: url("../assets/tinified/body2.png");
       background-repeat: no-repeat;
       background-size: cover;
+      padding: 24px 10px;
     }
     .crad-3 {
       background-image: url("../assets/tinified/body3.png");
       background-repeat: no-repeat;
       background-size: cover;
+      padding: 24px 10px;
     }
     .crad-4 {
       background-image: url("../assets/tinified/body4.png");
       background-repeat: no-repeat;
       background-size: cover;
+      padding: 24px 10px;
     }
     .card-center {
       display: flex;
@@ -127,6 +125,7 @@
         background-image: url("../assets/tinified/body5.png");
         background-repeat: no-repeat;
         background-size: cover;
+        padding: 24px 10px;
       }
     }
   }
