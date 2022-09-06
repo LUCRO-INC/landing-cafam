@@ -12,7 +12,7 @@
   padding: 6px 20px;
 }
 .footer {
-  background-image: url("../../../assets/tinified/10.png");
+  background-image: url("../../../assets/tinified/footer.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -22,6 +22,7 @@
   padding: 40px 0;
   display: flex;
   justify-content: center;
+  background-color: #324469;
   .content-footer {
     margin-top: 40px;
     // font-size: 8px;
@@ -79,6 +80,7 @@
   position: relative;
   display: flex;
   justify-content: center;
+  // background-color: white;
   .text {
     font-family: "bold", "arial", sans-serif;
     font-size: 16px;
@@ -86,10 +88,10 @@
     display: flex;
     justify-content: center;
     position: absolute;
-    background: #66a3f8;
+    background: white;
     border-radius: 30px;
     top: -21px;
-    color: #ffffff;
+    color: #53575A;
   }
 }
 a{

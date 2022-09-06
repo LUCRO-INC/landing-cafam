@@ -12,6 +12,15 @@
 //   font-family: book;
 //   src: url(../assets/Gotham-Font/GothamLight.ttf) format("opentype");
 // }
+.body-text{
+  background: linear-gradient(90deg, #324468 2.82%, #192A34 97.85%);
+}
+.before-l{
+  text-align: center;
+  width: 200px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
 .content-body {
   display: flex;
   flex-direction: column;
@@ -31,7 +40,7 @@
       margin: 69px 10px;
       width: 75%;
       text-align: center;
-      color: #0e4194;
+      color: white;
       font-size: 22px;
       line-height: 22px;
     }
@@ -71,8 +80,8 @@
     .number {
       position: absolute;
       top: -12px;
-      background: #2d4a73;
-      color: rgba(2, 255, 209, 1);
+      background: white;
+      color: #303338;
       width: 50px;
       height: 50px;
       border-radius: 33px;
@@ -92,22 +101,22 @@
       width: 100%;
     }
     .crad-1 {
-      background-image: url("../assets/tinified/AdobeStock_388279335.png");
+      background-image: url("../assets/tinified/body1.png");
       background-repeat: no-repeat;
       background-size: cover;
     }
     .crad-2 {
-      background-image: url("../assets/tinified/AdobeStock_244632771.png");
+      background-image: url("../assets/tinified/body2.png");
       background-repeat: no-repeat;
       background-size: cover;
     }
     .crad-3 {
-      background-image: url("../assets/tinified/AdobeStock_465757258.png");
+      background-image: url("../assets/tinified/body3.png");
       background-repeat: no-repeat;
       background-size: cover;
     }
     .crad-4 {
-      background-image: url("../assets/tinified/AdobeStock_488228319.png");
+      background-image: url("../assets/tinified/body4.png");
       background-repeat: no-repeat;
       background-size: cover;
     }
@@ -115,7 +124,7 @@
       display: flex;
       justify-content: center;
       .crad-5 {
-        background-image: url("../assets/tinified/AdobeStock_488388589.png");
+        background-image: url("../assets/tinified/body5.png");
         background-repeat: no-repeat;
         background-size: cover;
       }
